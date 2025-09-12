@@ -20,7 +20,7 @@ let album:any;
 album="ashwin";
 album=true;
 album=66;
-
+console.log("aa");
 
 //function
 const sum=(a:number,b:string)=>{
