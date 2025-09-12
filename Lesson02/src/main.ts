@@ -36,6 +36,9 @@ let haha : string | number;
 haha="ss";
 let active:string|number|boolean;
 
+//regulaqr expression
+let re: RegExp= /\w+/g ;
+
 
 
 
