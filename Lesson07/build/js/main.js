@@ -42,5 +42,8 @@ const monthlyIncomes = {
     bonus: 100,
     sidehustle: 250
 };
+for (const revenue in monthlyIncomes) {
+    console.log(monthlyIncomes[revenue]);
+}
 export {};
 //# sourceMappingURL=main.js.map

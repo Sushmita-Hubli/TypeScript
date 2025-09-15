@@ -100,3 +100,8 @@ const monthlyIncomes:Incomes={
     sidehustle:250
 
 }
+
+for(const revenue in monthlyIncomes)
+{
+    console.log(monthlyIncomes[revenue as keyof Incomes])
+}
